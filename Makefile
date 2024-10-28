@@ -1,6 +1,6 @@
 SRC = main.cpp user.cpp message.cpp
 TARGET = mypro
-PREFIX = /home/server/ref
+PREFIX = /home/server/reflinx
 
 mypro: $(SRC)
 	g++ -o $(TARGET) $(SRC)
